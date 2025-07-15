@@ -101,12 +101,3 @@ Total: {{ total }}
 - **Export Formats**: Extend to PDF using `python-docx` + `docx2pdf` or other libraries.
 
 ---
-
-## 📬 Feedback & Contributions
-
-Built with ❤️ by **Arshia Saberian**. Found an issue or have a feature request? Open an issue or pull request! 🚀
-
----
-
-**Generate invoices effortlessly and enhance your billing workflow!**
-
