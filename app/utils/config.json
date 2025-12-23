@@ -1,0 +1,34 @@
+{
+  "app": {
+  "title":"Invoice Generator Pro",
+  "version": "2.0.0",
+  "window_size": "1000x800",
+  "theme": "dark"
+  },
+  "paths": {
+    "template_dir": "assets/templates",
+    "output_dir": "invoice",
+    "log_file": "logo/app.log"
+  },
+  "Invoice": {
+    "default_tax_rate": 10.0,
+    "currency_symbol": "$",
+    "date_format": "%Y-%m-%d-%H%M%S"
+  },
+  "validation": {
+    "phone_max_length": 10,
+    "price_max": 500.0,
+    "price_step": 0.5,
+    "qty_min": 0,
+    "description_max_length": 200
+  },
+  "ui": {
+    "padding": 20,
+    "column-widths": {
+      "qty": 100,
+      "description": 300,
+      "price": 100,
+      "total": 100
+    }
+  }
+}
