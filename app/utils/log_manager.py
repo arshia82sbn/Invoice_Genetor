@@ -42,5 +42,5 @@ class LogManager:
         return self.logger
 
 # Set for the global access
-def get_logger(self):
+def get_logger():
         return LogManager().get_logger()
